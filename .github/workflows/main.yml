@@ -1,6 +1,6 @@
 - name: FTP Deploy
   uses: uses: airvzxf/ftp-deployment-action@latest
   with:
-    server: ftpupload.net
-    username: if0_37012014
-    password: Admin@200445
+    server: ${{ secrets.SERVER}}
+    username: ${{ secrets.USERNAME}}
+    password: ${{ secrets.PASSWORD}}
