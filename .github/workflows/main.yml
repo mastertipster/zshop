@@ -1,8 +1,4 @@
 name: Publish Website to CPanel
-on:
-  push:
-    branches:
-      - main
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
