@@ -1,4 +1,4 @@
-name: FTP Deploy
+- name: FTP Deploy
   uses: uses: airvzxf/ftp-deployment-action@latest
   with:
     server: ftpupload.net
