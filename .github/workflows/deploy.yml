@@ -1,5 +1,5 @@
  - name: FTP-Deploy-Action
-      uses: mastertipster/zshop
+      uses: mastertipster/zshop@*
       with:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.USERNAME }}
