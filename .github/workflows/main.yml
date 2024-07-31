@@ -1,6 +1,0 @@
-- name: FTP Deploy
-  uses: uses: airvzxf/ftp-deployment-action@latest
-  with:
-    server: ${{ secrets.SERVER}}
-    username: ${{ secrets.USERNAME}}
-    password: ${{ secrets.PASSWORD}}
